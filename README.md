@@ -1,5 +1,7 @@
 # DB-Lab2
 DB-Lab2
+
+
 Problem Statement :
 Analyzing the Job Trends and Postings on LinkedIn and titled ‘LinkedIn Job Posting Analysis’
 
@@ -19,11 +21,15 @@ Data cleaning is a crucial step in data analysis and machine learning. Here are 
 9. Encode Categorical Variables: Convert categorical variables into a form that could be provided to ML algorithms.
 10. Feature Engineering: Created new features from the existing data that might be relevant for analysis.
 11. Saving Cleaned Data: Finally, save the cleaned data for further analysis.
+    
 
-Datasets that used for analysis and preprocessing  are listed below:
+Datasets that are used for analysis and preprocessing  are listed below:
 A. Companies
 B. Benefits
 C. Job Industries
 D. Job Skills
 
-Step 2: Database Design and Querying Part.
+Step 2: Database Denormalize, Design, and Querying Part.
+A. Denormalization in Python
+Worked on denormalization for job-related datasets such as Job Postings Benefits, Job skills, Salaries, and job industries after preprocessing. To denormalize these datasets into a single table, merge them based on the job_id key. The denormalized dataset contains a total of 15,520 rows. Each row represents a unique job posting with aggregated information from the various datasets.
+

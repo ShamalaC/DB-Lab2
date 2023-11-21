@@ -46,4 +46,6 @@ Step 3: Creation of 2 Collections
         
 Step 4: Data loading of both collections using pymongo library[https://pymongo.readthedocs.io/en/stable/]
 
-Step 5:
+Step 5: Performed dataset analysis MongoDB queries.
+
+Step 6: Performed visualization using MongoDB charts.
